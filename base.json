@@ -32,6 +32,7 @@
         "noUndeclaredDependencies": "error"
       },
       "style": {
+        "useBlockStatements": "error",
         "useNodejsImportProtocol": "error"
       }
     }
