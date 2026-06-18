@@ -39,7 +39,7 @@
               {
                 "group": ["@cucumber/**"],
                 "importNamePattern": "\\*",
-                "message": "Import named members from @cucumber packages — a wildcard import pins every export (e.g. messages' version, which uses createRequire and breaks browser bundles)."
+                "message": "Import named members from @cucumber packages — a wildcard import defeats tree shaking and can cause problems with bundlers."
               }
             ]
           }
