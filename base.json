@@ -32,6 +32,18 @@
         "noUndeclaredDependencies": "error"
       },
       "style": {
+        "noRestrictedImports": {
+          "level": "error",
+          "options": {
+            "patterns": [
+              {
+                "group": ["@cucumber/**"],
+                "importNamePattern": "\\*",
+                "message": "Import named members from @cucumber packages — a wildcard import pins every export (e.g. messages' version, which uses createRequire and breaks browser bundles)."
+              }
+            ]
+          }
+        },
         "useBlockStatements": "error",
         "useNodejsImportProtocol": "error"
       }
