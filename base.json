@@ -32,6 +32,18 @@
         "noUndeclaredDependencies": "error"
       },
       "style": {
+        "noRestrictedImports": {
+          "level": "error",
+          "options": {
+            "patterns": [
+              {
+                "group": ["@cucumber/**"],
+                "importNamePattern": "\\*",
+                "message": "Import named members from @cucumber packages — a wildcard import defeats tree shaking and can cause problems with bundlers."
+              }
+            ]
+          }
+        },
         "useBlockStatements": "error",
         "useNodejsImportProtocol": "error"
       }
