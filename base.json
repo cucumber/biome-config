@@ -52,7 +52,7 @@
   "javascript": {
     "formatter": {
       "indentWidth": 2,
-      "lineEnding": "lf",
+      "lineEnding": "auto",
       "bracketSpacing": true,
       "quoteStyle": "single",
       "semicolons": "asNeeded",
@@ -63,7 +63,7 @@
     "formatter": {
       "indentStyle": "space",
       "indentWidth": 2,
-      "lineEnding": "lf"
+      "lineEnding": "auto"
     }
   }
 }
