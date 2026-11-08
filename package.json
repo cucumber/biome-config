@@ -6,5 +6,8 @@
     "./base.json": "./base.json"
   },
   "repository": "github:cucumber/biome-config",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "base.json"
+  ]
 }
