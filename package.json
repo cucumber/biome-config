@@ -9,5 +9,12 @@
   "license": "MIT",
   "files": [
     "base.json"
-  ]
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "2.6.6"
+  },
+  "scripts": {
+    "lint": "biome check .",
+    "fix": "biome check --write ."
+  }
 }
